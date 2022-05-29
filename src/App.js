@@ -10,7 +10,7 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar style="light" />
+      <StatusBar style="light" translucent/>
       <View>
         <Text style={styles.titulo}>Três formas de Inserir Imagens</Text>
         <CustomImage
@@ -36,14 +36,14 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#002baf',
+    backgroundColor: '#202225',
     alignItems: 'center',
   },
   titulo:{
     fontSize: 20,
     fontWeight: 'bold',
     textAlign: 'center',
-    color: '#fff',
-    marginBottom: 30
+    color: '#ccc',
+    marginBottom: 30,
   },
 });

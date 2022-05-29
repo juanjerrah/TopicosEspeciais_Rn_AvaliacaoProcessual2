@@ -22,13 +22,13 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: 'bold',
         textAlign: 'center',
-        color: '#fff',
+        color: '#ccc',
         paddingBottom: 10
     },
     bgImg:{
         width: 250,
         height: 240,
-        backgroundColor: '#2756e5',
+        backgroundColor: '#37393E',
         alignSelf: 'center',
         marginBottom: 10,
         borderRadius: 10,
