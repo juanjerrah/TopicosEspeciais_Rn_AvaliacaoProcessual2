@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     bgImg:{
         width: 250,
         height: 240,
-        backgroundColor: 'red',
+        backgroundColor: '#2756e5',
         alignSelf: 'center',
         marginBottom: 10,
         borderRadius: 10,
